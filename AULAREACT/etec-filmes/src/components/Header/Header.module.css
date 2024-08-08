@@ -5,10 +5,11 @@
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 0.5rem;
+    height: 68px;
     font-size: 1.5rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-block: 0.75rem;
     
 }
 
@@ -18,14 +19,15 @@
     font-weight: 500;
 }
 
-.header nav{
+/* .header nav{
     margin-right: 3rem;
     
 
-}
+} */
 
 .header a{
     text-decoration: none;
     color: white;
     padding-inline: 0.75rem;
+    font-size: 1.125rem;
 }
