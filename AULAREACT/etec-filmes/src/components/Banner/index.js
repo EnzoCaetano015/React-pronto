@@ -10,3 +10,5 @@ function Banner({ image }) {
 }
 
 export default Banner;
+
+//hdfjhsafd
