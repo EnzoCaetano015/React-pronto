@@ -1,33 +1,24 @@
 import Banner from "./components/Banner";
-import Card from "./components/Card";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
+import Card from "./components/Card";
 import Header from "./components/Header";
-import videos from "./json/videos.json";
-
+import Category, {categorias, filterCategory} from "./components/Category";
 
 function App() {
   return (
     <>
       <Header/>
-      <Banner image="home"/>
-
-      {/* colocou os filhos dentro das tags (componente com os parametros) */}
+      <Banner image="home" />
       <Container>
-      <h2>Séries</h2>
 
-        <section className="cards">
-          
-          {
-            // esta mapeamendo e chamando cada um de video e dps cria um card pra cada video e chamando o id
-            videos.map(video => {
-              return <Card id={video.id} key = {video.id}/>
-            })
-          }
+        {categorias.map((category, index) =>
+          <Category category={category}>
+            { filterCategory(index).map((video) => <Card id={video.id} key={video.id} /> )}
+          </Category>
+        )}
 
-        </section>
-      </Container>
-
+      </Container>      
       <Footer/>
     </>
   );
