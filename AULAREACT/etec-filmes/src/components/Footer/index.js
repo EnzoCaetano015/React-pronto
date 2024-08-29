@@ -1,12 +1,10 @@
-import styles from './Footer.module.css'
+import styles from './Footer.module.css';
 
 function Footer(){
-    return(
-       <footer className={styles.footer}>
-        <h2>
-            Desenvolvido por Enzo Caetano
-        </h2>
-       </footer> 
+    return (
+        <footer className={styles.footer}>
+            <h2>Desenvolvido por Enzo Caetano &reg; 2024</h2>
+        </footer>
     );
 }
 

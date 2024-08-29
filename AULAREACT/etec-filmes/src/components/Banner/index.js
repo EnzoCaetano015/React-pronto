@@ -1,8 +1,8 @@
-import styles from "./Banner.module.css";
+import styles from './Banner.module.css';
 
-function Banner({ image }) {
+function Banner({ image }){
     return(
-        <div
+        <div 
             className={styles.banner}
             style={{ backgroundImage: `url('/img/banner-${image}.png')` }}
         ></div>
@@ -10,5 +10,3 @@ function Banner({ image }) {
 }
 
 export default Banner;
-
-//hdfjhsafd
