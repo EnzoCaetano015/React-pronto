@@ -6,7 +6,7 @@ export const categorias = [
 "Geografia",
 "Como fazer e usar",
 "Astronomia e Geografia",
-"Climatologia, Metereologia, Vegetação",
+"Climatologia, Meteorologia, Vegetação",
 "Geologia e Hidrografia"
 ]
 
