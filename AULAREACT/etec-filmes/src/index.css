@@ -32,9 +32,3 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-.cards{
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
