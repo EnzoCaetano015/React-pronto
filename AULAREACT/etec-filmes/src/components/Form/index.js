@@ -1,4 +1,5 @@
 import styles from "./Form.module.css"
+import {categorias} from "../Category"
 
 
 function Form(){
@@ -29,6 +30,9 @@ function Form(){
                     <label>Categoria</label>
                     <select>
                         <option value="-">Selecione uma categoria</option>
+                        {categorias.map(item => {
+                            return <option value={item}>{item}</option>
+                        })}
                     </select>
 
                 </div>
