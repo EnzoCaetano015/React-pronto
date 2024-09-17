@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import VideoList from "../../components/VideoList";
 import { UseFavoriteContext } from "../../context/Favorite";
 import styles from "./Favorites.module.css";
+import Banner from "../../components/Banner";
 
 
 function Favorites(){
@@ -15,7 +16,8 @@ function Favorites(){
 
         <>
         
-        <Header></Header>
+        <Header> </Header>
+        <Banner image="favoritos" />
 
         <Container>
 

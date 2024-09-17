@@ -2,6 +2,8 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Container from "../../components/Container";
 import Form from "../../components/Form";
+import styles from "./Cadastro.module.css";
+
 
 function Vcadastro(){
 
@@ -10,11 +12,15 @@ function Vcadastro(){
         <>
         
         <Header></Header>
+
+       
         
-        <Container>
+        <Container >
 
+            <section className={styles.cadastro}>
             <Form></Form>
-
+            </section>
+            
         </Container>
         
         <Footer></Footer>

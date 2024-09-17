@@ -15,11 +15,13 @@
 
 .container form{
 
-    width: 100%;
+    width: 50%;
     max-width: 90%;
     background-color: #333333;
     border-radius: 20px;
     padding: 36px 64px;
+    font-size: 1.5rem;
+    
 
 }
 
@@ -46,15 +48,18 @@
     background-color: #b71c1c;
     border-radius: 10px;
     font-weight: 600;
-    font-size: 1.125rem;
-    padding: 24px 28px;
+    font-size: 1.3rem;
+    padding: 20px 28px;
     border: none;
     cursor: pointer;
     color: #fff;
     margin-top: 0.5rem;
+    width: 200px;
+    height: 55px;
 
 }
 
 .container button:hover{
     background-color: #f44336;
 }
+
