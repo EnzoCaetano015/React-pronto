@@ -5,6 +5,7 @@ import Container from "../../components/Container";
 import SearchVL from "../../components/SearchVL";
 import videos from "../../json/videos.json";
 import Banner from "../../components/Banner";
+import ScrollTop from "../../components/ScroolTop";
 
 
 function Search(){
@@ -12,6 +13,8 @@ function Search(){
     return(
 
         <>
+
+       <ScrollTop></ScrollTop>
 
         <Header/>
 

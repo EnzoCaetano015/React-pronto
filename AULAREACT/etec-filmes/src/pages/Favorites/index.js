@@ -5,6 +5,7 @@ import VideoList from "../../components/VideoList";
 import { UseFavoriteContext } from "../../context/Favorite";
 import styles from "./Favorites.module.css";
 import Banner from "../../components/Banner";
+import ScrollTop from "../../components/ScroolTop";
 
 
 function Favorites(){
@@ -15,7 +16,7 @@ function Favorites(){
     return(
 
         <>
-        
+        <ScrollTop></ScrollTop>
         <Header> </Header>
         <Banner image="favoritos" />
 

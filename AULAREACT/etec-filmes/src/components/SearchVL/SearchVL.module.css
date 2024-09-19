@@ -1,13 +1,12 @@
 .container{
-    min-width: 500px;
-    max-width: 1150px;
+    width: 100%;
     margin: 0 auto;
 
 }
 
 .container input{
 
-    min-width: 500px;
+    width: 40%;
     padding: 15px 10px;
     margin-bottom: 0.5rem;
     border: 0;
@@ -15,3 +14,13 @@
     border-radius: 5px;
     font-size: 1.125rem;
 }
+
+@media (max-width: 740px) {
+    
+    .container input{
+        width: 80%;
+    }
+  
+
+}
+
